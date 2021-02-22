@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+    padding-left:30px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-image: url(https://hackaday.com/wp-content/uploads/2018/08/portal.png?w=800);
+    
+}
+.characters{
+    
+    display: flex;
+    flex-wrap: wrap
+}
+.char-block{
+    padding: 10px;
+    font-size:22px;
+}
